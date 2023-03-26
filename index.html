@@ -51,6 +51,14 @@
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
       </span>
     </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+    <p>
+    <div id="current_date" style="color: aliceblue;"></div>
+    </p>
+    <script>
+      var data = moment().locale('pt-br').format('dddd, D [de] MMMM [de] YYYY');
+      document.getElementById("current_date").innerHTML = data;
+    </script>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -66,15 +74,14 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#Estudos">Estudos & Certificações</a>
         </li>
+
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#Contactos">Contactos</a>
         </li>
 
-
-      </ul>
     </div>
+    <p class="small copyright-text">Portfólio&copy; 2023. Designed by Francisco Reis</p>
   </nav>
-
   <div class="container-fluid p-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
@@ -86,25 +93,30 @@
           ·
           <a href="mailto:fjreis@outlook.com">fjreis@outlook.com</a>
         </div>
-
-        <div class="resume-content mr-auto">
-                  <div class="text-justify text-indentado">
-                    Olá, eu sou Francisco Reis, um residente de Castelo Branco nascido em 1968. No momento, estou desempregado,
-                    mas tenho
-                    uma ampla formação em diferentes áreas. Possuo um certificado parcial como Técnico de Gestão do Ambiente, bem
-                    como um
-                    certificado como Técnico de Informática — Sistemas. Atualmente, frequento um curso de Técnico Auxiliar de
-                    Farmácia,
-                    buscando expandir ainda mais as minhas habilidades e conhecimentos. Com a intenção de divulgar a minha
-                    formação e
-                    experiência, criei uma página onde partilho um pouco da minha autobiografia e contactos. Sou uma pessoa
-                    dedicada e
-                    motivada, sempre espreitando novos desafios e oportunidades para crescer profissionalmente. Sinta-se à vontade
-                    para
-                    entrar em contacto comigo para discutir possíveis oportunidades de emprego ou projetos em que eu possa ajudar.
-                    Estou
-                    animado para continuar a minha jornada de aprendizado e desenvolvimento profissional.
-                  </div>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <div class="text-justify text-indentado">
+              Olá, eu sou Francisco Reis, um residente de Castelo Branco nascido em 1968. No momento, estou
+              desempregado,
+              mas tenho
+              uma ampla formação em diferentes áreas. Possuo um certificado parcial como Técnico de Gestão do Ambiente,
+              bem
+              como um
+              certificado como Técnico de Informática — Sistemas. Atualmente, frequento um curso de Técnico Auxiliar de
+              Farmácia,
+              buscando expandir ainda mais as minhas habilidades e conhecimentos. Com a intenção de divulgar a minha
+              formação e
+              experiência, criei uma página onde partilho um pouco da minha autobiografia e contactos. Sou uma pessoa
+              dedicada e
+              motivada, sempre espreitando novos desafios e oportunidades para crescer profissionalmente. Sinta-se à
+              vontade
+              para
+              entrar em contacto comigo para discutir possíveis oportunidades de emprego ou projetos em que eu possa
+              ajudar.
+              Estou
+              animado para continuar a minha jornada de aprendizado e desenvolvimento profissional.
+            </div>
+          </div>
         </div>
 
         <ul class="list-inline list-social-icons mb-0">
