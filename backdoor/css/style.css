@@ -24,7 +24,10 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
-
+ .justify{
+  text-align: justify;
+  text-justify: auto;
+ }
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
