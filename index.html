@@ -300,18 +300,21 @@
       </div>
     </div>
     <!--Rodape-->
-    <footer class="footer">
-      <div class="text-center">
-        <small class="copyright">
-          Copyright&copy; 2026 | Portfólio Designed by
-          <a
-            href="https://rebrand.ly/portefolio"
-            target="_blank"
-            style="text-decoration: underline"
-            >Francisco Reis</a
-          >
-        </small>
-      </div>
-    </footer>
+  <footer class="footer">
+  <div class="text-center">
+    <small class="copyright">
+      Copyright&copy; 2025 - <span id="ano"></span> | Portfólio Designed by
+      <a
+        href="https://rebrand.ly/portefolio"
+        target="_blank"
+        style="text-decoration: underline"
+        >Francisco Reis</a
+      >
+    </small>
+  </div>
+</footer>
+<script>
+  document.getElementById("ano").textContent = new Date().getFullYear();
+</script>
   </body>
 </html>
